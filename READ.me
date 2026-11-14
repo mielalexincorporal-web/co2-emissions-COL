@@ -1,0 +1,20 @@
+# Colombia CO2 Emissions Analysis (1990–Present)
+
+This repository contains an independent data analysis evaluating historical carbon dioxide ($CO_2$) emissions and per-capita trends for *Colombia (COL)* utilizing the Our World in Data (OWID) $CO_2$ dataset.
+
+## Repository Structure
+
+```text
+co2-emissions-COL/
+├── data/
+│   └── COL_co2.csv            # Filtered annual CO2 data for Colombia (1990 onward)
+├── figures/
+│   ├── COL_annual_co2.png     # Line plot of annual CO2 emissions over time
+│   ├── COL_per_capita.png     # Line plot of per-capita CO2 emissions
+│   └── COL_annual_change.png  # Bar chart of annual percentage changes
+├── results/
+│   ├── COL_summary.csv        # Key summary metrics and statistical overview
+│   ├── COL_yearly_changes.csv # Computed annual percentage changes
+│   └── session_info.txt       # R session and environment details
+└── scripts/
+    └── analyze_co2.R          # Main reproducible R script for data processing and plotting
